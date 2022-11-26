@@ -30,7 +30,7 @@ def _match(self, other: Any) -> ormar.queryset.clause.FilterGroup:
     Works as 'column @@ to_tsquery(VALUE)'
 
     Args:
-        other: value to check agains operator
+        other: value to check against operator
 
     Returns:
         FilterGroup for operator.
