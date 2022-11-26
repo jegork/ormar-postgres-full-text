@@ -1,0 +1,11 @@
+[flake8]
+max-complexity = 6
+inline-quotes = double
+max-line-length = 88
+extend-ignore = E203
+
+exclude =
+  ./.git,
+  ./.venv,
+  migrations,
+  ./var,
